@@ -1,0 +1,7 @@
+#!/bin/bash
+# ten program potrzebuje argumentow do wyswietlania
+
+echo "witaj Aga numer:1"
+echo "uruchomilas program: $0"
+echo "podalas argumenty $@"
+echo "mowisz ojojoj $@"
