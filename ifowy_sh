@@ -1,0 +1,10 @@
+#!/bin/bash
+# ten program podejmuje decyzje
+
+read -p "Podaj liczbe: " liczba
+case  $liczba in
+    100) echo "Brawo, to sto";;
+    20|50)  echo "Brawo, to 20 albo 50!";;
+    *) echo "szkoda, tej liczby nie znam!";;
+esac
+
