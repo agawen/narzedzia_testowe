@@ -1,0 +1,8 @@
+#!/bin/bash
+# to wymaga argumentow do podjecia decyzji
+
+read -p "podaj pierwsza liczbe:" pierwsza
+read -p "podaj druga liczbe:" druga
+
+echo "${pierwsza} % ${druga} ="
+echo " $((${pierwsza} % ${druga})) = "
