@@ -1,0 +1,18 @@
+#!/bin/bash
+# ten program potrzebuje argumentow
+
+read -p "podaj pierwsza liczbe: " pierwsza
+read -p "podaj druga liczbe: " druga
+
+echo "${pierwsza} + ${druga} = "
+echo "$((${pierwsza} + ${druga})) ="
+echo "${pierwsza} - ${druga} = "
+echo "$((${pierwsza} - ${druga})) = "
+echo "${pierwsza} * ${druga} = "
+echo "$((${pierwsza} * ${druga})) = "
+echo "${pierwsza} / ${druga}="
+echo "$((${pierwsza} / ${druga})) = "
+echo "${pierwsza} ** ${druga} = "
+echo "$((${pierwsza} ** ${druga}))= "
+echo "${pierwsza} % ${druga} = "
+echo "$((${pierwsza} % ${druga})) = "
