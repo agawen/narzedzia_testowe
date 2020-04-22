@@ -1,0 +1,11 @@
+#!/bin/bash
+# tutaj mam tablice, deklaracje i odowlania
+
+numery=('100' 200 300)
+imiona=('Lukasz''aga'' wiola')
+
+echo "imiona  ${imiona[0]} ${imiona[1]} ${imiona[2]}"
+# Wszystkie elementy
+echo "numery ${numery} [0]}"
+# ilosc elementow
+echo "imiona ${#imiona[@]}"
